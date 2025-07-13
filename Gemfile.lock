@@ -89,8 +89,10 @@ GEM
     debug (1.11.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
+    digest-sha3 (1.0.2)
     dotenv (3.1.8)
     drb (2.2.3)
+    ecdsa (1.2.0)
     ed25519 (1.4.0)
     erb (5.0.1)
     erubi (1.13.1)
@@ -297,6 +299,8 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
+  digest-sha3
+  ecdsa
   kamal
   pg (~> 1.1)
   puma (>= 5.0)
