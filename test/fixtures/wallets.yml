@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  address: MyString
+  public_key_hex: MyText
+  balance: 9.99
+  is_master: false
+  incoming_tx_count: 1
+  outcoming_tx_count: 1
+  last_nonce: 1
+
+two:
+  address: MyString
+  public_key_hex: MyText
+  balance: 9.99
+  is_master: false
+  incoming_tx_count: 1
+  outcoming_tx_count: 1
+  last_nonce: 1
